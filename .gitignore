@@ -6,3 +6,7 @@
 /build/classes/java/test/
 .idea/
 *.iml
+.classpath
+.project
+.settings/
+bin/
