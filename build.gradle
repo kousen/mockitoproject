@@ -1,6 +1,12 @@
 plugins {
     id 'java'
     id 'eclipse'
+    id 'dev.equo.ide' version '1.0.1'
+}
+
+equoIde { // launch with ./gradlew equoIde
+    jdt()
+    gradleBuildship().autoImport('.')
 }
 
 group 'com.kousenit'
